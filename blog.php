@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/image/icone-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <!----------header----------->
+    <section class="header-blog">
+        <nav>
+            <a href="index.html"><img src="assets/image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" aria-hidden="true" onclick="HideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="course.php">COURSE</a></li>
+                    <li><a href="blog.php">BLOG</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-blog">
+            <h1>Our certificate & online programs for 2023</h1>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="blog-mohtoa">
+            <div class="img-word">
+                <img src="assets/image/certificate.jpg" alt="">
+            <h3>Our certificate & online programs for 2023</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sint laborum corrupti vel quis ipsam animi odio necessitatibus
+            incidunt eos et sunt dolore molestiae velit soluta laboriosam 
+            beatae excepturi esse aut, repellendus iure ipsa vitae consectetur
+            reiciendis porro. Rerum facilis dignissimos alias aliquid velit
+            reprehenderit inventore quasi facere odio, eligendi accusantium in!
+            Quas excepturi suscipit quis eius, commodi odit illum non at magnam
+            unde quidem itaque provident? Eaque laborum enim soluta esse.
+            Odit quod laborum numquam similique, assumenda nisi, tempora odio
+            perspiciatis perferendis itaque optio veritatis placeat eligendi
+            mollitia iste nemo explicabo? Perspiciatis sunt ipsa ratione neque architecto
+            omnis, debitis dicta molestiae pariatur! Debitis exercitationem ad totam quod 
+            modi iste provident quibusdam aperiam repudiandae quaerat,
+            quos tempore vel optio nesciunt distinctio ducimus minima,
+            eligendi aut, amet laborum impedit fugit ab officiis?</p>
+            </div>
+
+            <div class="post">
+
+                <div class ="post-blog">
+                    <h4>past calegoies</h4>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Business Andlytice</h3>
+                        </div>
+                        <div class="col">
+                            <p>21</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h3>Data Science</h3>
+                        </div>
+                        <div class="col">
+                            <p>24</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h3>Machine Learning</h3>
+                        </div>
+                        <div class="col">
+                            <p>28</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h3>Computer Sciance</h3>
+                        </div>
+                        <div class="col">
+                            <p>30</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h3>AutoCAD</h3>
+                        </div>
+                        <div class="col">
+                            <p>35</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h3>BJoumlisam</h3>
+                        </div>
+                        <div class="col">
+                            <p>45</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">   
+                            <h3>Commerce</h3>
+                        </div>
+                        <div class="col">
+                            <p>41</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    
+    </section>
+
+    <section class="comment">
+
+        <h3>Leave a comment</h3>
+    
+    <form action="comment-form.php" method="post">
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="text" name="name">
+            <label for="floatingPassword">ENTER NAME</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+            <label for="floatingInput">Email address</label>
+        </div>
+
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="comment"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+        </div>
+
+        <button class="comment-btn" name="comment">POST COMMENT</button>
+
+    </form>
+
+    </section>
+
+    <!------------Footer------------>
+    <section class="footer">
+             <h4>About Us</h4>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed inventore atque, vel quas modi doloribus. Minus reprehenderit autem quibusdam eveniet,
+                ullam at vel cumque rem, dolorem id nisi saepe. Corporis laudantium, porro nemo ducimus distinctio dolorum modi? Illum soluta deleniti distinctio 
+             <br>corporis pariatur rem, excepturi, officia veritatis tempore, quo recusandae!</p>
+             <div class="icone">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+             </div>
+             <p>Made With<i class="fa fa-heart"></i>by easy Tutorials</p>
+
+    </section> 
+
+    
+        <!-- footer section starts -->
+
+        <section class="footers">
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <h3>quick links</h3>
+                <a href="index.php"><i class="fa fa-angle-right" aria-hidden="true"></i>home</a>
+                <a href="about.php"><i class="fa fa-angle-right" aria-hidden="true"></i>about</a>
+                <a href="course.php"><i class="fa fa-angle-right" aria-hidden="true"></i>course</a>
+                <a href="blog.php"><i class="fa fa-angle-right" aria-hidden="true"></i>blog</a>
+                <a href="contact.php"><i class="fa fa-angle-right" aria-hidden="true"></i>contact</a>
+
+            </div>
+
+            <div class="box">
+
+                <h3>extra links</h3>
+                <a href="contact.php"><i class="fa fa-angle-right" aria-hidden="true"></i>ask question</a>
+                <a href="about.php"><i class="fa fa-angle-right" aria-hidden="true"></i>about us</a>
+                <a href="privacy-policy.php"><i class="fa fa-angle-right" aria-hidden="true"></i>privacy policy</a>
+                <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>terms of use</a>
+                <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>contact us </a>
+                
+            </div>
+
+            <div class="box">
+
+                <h3>contact info</h3>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+123-456-7890</a>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+111-425-7290</a>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>loikuymwm@gmail.com</a>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>loinbcofpa@gmail.com</a>
+                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Berlin, Germany - 440012</a>
+
+            </div>
+
+            <div class="box">
+
+                <h3>follow us</h3>
+                <a href=""><i class="fa-brands fa-facebook"></i>facebook</a>
+                <a href=""><i class="fa-brands fa-instagram"></i>instagram</a>
+                <a href=""><i class="fa-brands fa-twitter"></i>twitter</a>
+                <a href=""><i class="fa-brands fa-linkedin"></i>linkedin</a>
+                <a href=""><i class="fa-brands fa-telegram"></i>telegram</a>
+                
+            </div>
+
+            </div>
+
+            <div class="credit">created by <span>mr.Alaa Rakouki</span> | all rights reserved! </div>
+
+            </section>
+
+            <!-- footer section ends -->
+
+
+     <!--Javascript For Toggle Menu-->
+     <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function ShowMenu(){
+            navLinks.style.right="0";
+
+        }
+        function HideMenu(){
+            navLinks.style.right="-200px";
+
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+</body>
+</html>
